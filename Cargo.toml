@@ -1,0 +1,18 @@
+[package]
+name = "r2wc"
+version = "0.1.0"
+authors = ["jonathanpavlik"]
+edition = "2018"
+
+[dependencies]
+ncurses = "5.94.0"
+lazy_static = "1.1.0"
+stopwatch = "0.0.7"
+chrono = "0.4.6"
+
+[[bin]]
+name = "r2wc-server"
+path = "src/server.rs"
+[[bin]]
+name = "r2wc-client"
+path = "src/client.rs"
